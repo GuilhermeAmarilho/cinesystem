@@ -1,0 +1,121 @@
+div.topo2{
+  position: absolute;
+  background: #3066CA;
+  top: 110px;
+  height: 50px;
+  width: 100%;
+}
+div.topo2 div{
+  margin-top: 15px;
+}
+div.topo2 span{
+  color: white;
+  margin-left: 10%;
+}
+div.topo2 ul{
+  position: absolute;
+  top: 0px;
+  margin-left: 35%;
+}
+div.topo2 ul li{
+  display: inline;
+  padding-right: 4%;
+  color: white;
+  font-size: 12px;
+  font-family: cursive;
+}
+div.topo2 div img{
+  position: absolute;
+  top: 10px;
+  margin-left: 30%;
+}
+@media (max-width: 1250px) {
+  div.topo2 span{
+    margin-left: 5%;
+    font-size: 12px;
+  }
+  div.topo2 ul{
+    margin-left: 32%;
+  }
+  div.topo2 ul li{
+    padding-right: 5%;
+    font-size: 8px;
+  }
+  div.topo2 div img{
+    margin-left: 33%;
+  }
+}
+@media (max-width: 800px){
+  div.topo2{
+    height: 80px;
+  }
+  div.topo2 span{
+    position: absolute;
+    margin-left: 25px;
+    top: 15px;
+    padding-right: 20px;
+    font-size: 13px;
+  }
+  div.topo2 div img{
+    width: 180px;
+    height: 20px;
+    margin-left: 63%;
+  }
+  div.topo2 ul{
+    margin-left: 15%;
+    margin-top: 40px;
+  }
+  div.topo2 ul li{
+    padding-right: 15%;
+    font-size: 9px;
+  }
+}
+@media (max-width: 670px){
+  div.topo2{
+    height: 60px;
+  }
+  div.topo2 span{
+    margin-left: 15px;
+    top: 10px;
+    padding-right: 20px;
+    font-size: 13px;
+  }
+  div.topo2 div img{
+    width: 180px;
+    height: 20px;
+    margin-left: 63%;
+  }
+  div.topo2 ul{
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+  div.topo2 ul li{
+    padding-right: 15%;
+    color: white;
+    font-size: 9px;
+  }
+}
+@media (max-width: 500px){
+  div.topo2{
+    top:180px;
+    height: 100px;
+  }
+  div.topo2 span{
+    top: 40px;
+    font-size: 12px;
+  }
+  div.topo2 div img{
+    width: 180px;
+    height: 20px;
+    margin-left: 25%;
+  }
+  div.topo2 ul{
+    margin-left: 0.5%;
+    margin-top: 65px;
+  }
+  div.topo2 ul li{
+    padding-right: 7%;
+    color: white;
+    font-size: 7px;
+  }
+}

@@ -1,0 +1,177 @@
+body{
+  margin: 0px;
+}
+div.topo{
+  background: #DF0101;
+  height: 110px;
+  width: 100%;
+  position: absolute;
+}
+img.topo{
+  width: 20%;
+  height: 65%;
+  padding-top: 20px;
+  padding-left: 16%;
+}
+div.topo input{
+  height: 25%;
+  width: 21%;
+  position: absolute;
+  top: 28px;
+  margin-left: 3%;
+}
+img.faq{
+  position: absolute;
+  top: 25px;
+  margin-left: 26%;
+}
+div.topo ul{
+  margin: 0px;
+  position: absolute;
+  top: 65px;
+  margin-left: 31%;
+}
+li.maior{
+  list-style: none;
+  display: inline;
+}
+li.menor{
+  list-style: none;
+  display: inline;
+}
+div.topo ul a{
+  text-decoration: none;
+  color: white;
+  padding-left: 8px;
+  font-family: cursive;
+  font-size: 0.7em;
+}
+@media(max-width: 900px){
+  img.topo{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: -10px;
+    padding-left: 110px;
+  }
+  div.topo input{
+    width: 200px;
+    height: 20px;
+    top: 20px;
+    margin-left: 300px;
+  }
+  img.faq{
+    margin-left: 550px;
+    top: 15px;
+    width: 120px;
+    height: 25px;
+  }
+  div.topo ul{
+    margin-left: 100px;
+    top: 60px;
+  }
+  li.maior{
+    display: block;
+  }
+  li.menor{
+    display: block;
+    margin-left: 80px;
+  }
+}
+@media (max-width: 670px){
+  div.topo{
+    height: 110px;
+  }
+  img.topo{
+    height: 40px;
+    top: -10px;
+    padding-left: 130px;
+  }
+  div.topo input{
+    top: 70px;
+    margin-left: 180px;
+  }
+  img.faq{
+    margin-left: 350px;
+  }
+  li.maior{
+    position: absolute;
+    top: -50px;
+    margin-left: -135px;
+  }
+  li.maior a{
+    display: block;
+    padding-top: 5px;
+  }
+  li.menor{
+    position: absolute;
+    top: -50px;
+    margin-left: 350px;
+  }
+  li.menor a{
+    display: block;
+    padding-top: 4px;
+  }
+}
+@media (max-width: 600px){
+  img.topo{
+    width: 120px;
+    padding-left: 60px;
+  }
+  div.topo input{
+    top: 85px;
+    margin-left: 30px;
+  }
+  img.faq{
+    margin-left: 60px;
+    top: 50px;
+    width: 120px;
+    height: 25px;
+  }
+  li.maior{
+    margin-left: 115px;
+    top: -58px;
+  }
+  li.maior a{
+    padding-top: 7px;
+  }
+  li.menor{
+    top: -58px;
+    margin-left: 220px;
+  }
+  li.menor a{
+    padding-top: 7px;
+  }
+}
+@media (max-width: 500px){
+  div.topo{
+    height: 180px;
+  }
+  img.topo{
+    width: 200px;
+    height: 50px;
+    margin-left: 80px;
+  }
+  div.topo input{
+    top: 70px;
+    margin-left: 140px;
+  }
+  img.faq{
+    margin-left: 170px;
+    top: 100px;
+    width: 120px;
+    height: 25px;
+  }
+  li.maior{
+    top: -50px;
+    margin-left: -135px;
+  }
+  li.maior a{
+    padding-top: 2px;
+  }
+  li.menor{
+    top: 22px;
+    margin-left: -135px;
+    padding-top: 2px;
+  }
+}
